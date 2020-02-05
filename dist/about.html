@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>ЛеСС</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:700&display=swap&subset=cyrillic" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/all.min.css">
+
+</head>
+<body>
+	<div class="overlay"></div>
+	<div class="mobile-menu">
+		<div class="mobile-menu-head">
+			<div class="mobile-menu__close"></div>
+			<div class="header-search"><input type="text" placeholder="Поиск..."></div>
+		</div>
+		<ul class="mobile-menu__list">
+			<li class="mobile-menu__item"><a href="about.html">О компании</a></li>
+			<li class="mobile-menu__item">
+				<span class="nav-sub toggle-open">Спецтехника</span>
+				<ul class="mobile-dropdown">
+					<li class="mobile-dropdown__item"><a href="section.html">Автокраны</a></li>
+					<li class="mobile-dropdown__item"><a href="section.html">Автовышки</a></li>
+					<li class="mobile-dropdown__item"><a href="section.html">Манипуляторы</a></li>
+					<li class="mobile-dropdown__item"><a href="section.html">Фронтальные погрузчики</a></li>
+					<li class="mobile-dropdown__item"><a href="section.html">Эксковаторы</a></li>
+					<li class="mobile-dropdown__item"><a href="section.html">Самосвалы</a></li>
+					<li class="mobile-dropdown__item"><a href="section.html">Борты и Полуприцепы</a></li>
+					<li class="mobile-dropdown__item"><a href="section.html">Тралы</a></li>
+					<li class="mobile-dropdown__item"><a href="section.html">Бетононасос</a></li>
+				</ul>
+			</li>
+			<li class="mobile-menu__item"><a href="sales.html">Акции</a></li>
+			<li class="mobile-menu__item"><a href="prices.html">Прайс</a></li>
+			<li class="mobile-menu__item">
+				<span class="nav-sub toggle-open">Услуги</span>
+				<ul class="mobile-dropdown">
+					<li class="mobile-dropdown__item"><a href="services.html">Перевозка и сопровождение тяжелых и негабаритных грузов</a></li>
+					<li class="mobile-dropdown__item"><a href="services.html">Разработка котлованов</a></li>
+					<li class="mobile-dropdown__item"><a href="services.html">Снос и демонтаж зданий и сооружений</a></li>
+					<li class="mobile-dropdown__item"><a href="services.html">Благоустройство территорий</a></li>
+					<li class="mobile-dropdown__item"><a href="services.html">Вывоз строительного мусора</a></li>
+					<li class="mobile-dropdown__item"><a href="services.html">Уборка и вывоз снега</a></li>
+					<li class="mobile-dropdown__item"><a href="services.html">Опиловка веток и спил деревьев</a></li>
+				</ul>
+			</li>
+			<li class="mobile-menu__item"><a href="">Фотогалерея</a></li>
+			<li class="mobile-menu__item"><a href="contacts.html">Контакты</a></li>
+		</ul>
+	</div>
+	<header class="header">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-auto d-block d-md-none">
+					<div class="menu-toggle">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				<div class="col-auto header-logo">
+					<a href="/"><img src="img/header/Logo.png" alt="ЛеСС"></a>
+				</div>
+				<!-- /.col-auto -->
+				<div class="col-2 d-none d-xl-block">
+					<div class="header-search"><input type="text" placeholder="Поиск..."></div>
+				</div>
+				<!-- /.col-2 -->
+				<div class="col-auto d-none d-lg-block">
+					<div class="header-work">
+						<div class="header-work__icon"><img src="img/header/clock.png" alt="График работы"></div>
+						<div class="header-work__text"><p>График работы:</p><p>Пн - Пт с 8:00 до 18:00</p></div>
+					</div>
+				</div>
+				<!-- /.col-auto -->
+				<div class="col-auto">
+					<div class="header-phones text-right">
+						<div class="header-phones__icon"><img src="img/header/phone.png" alt="Контактные телефоны"></div>
+						<div class="header-phones__links">
+							<p><a href="tel:88469908063" class="header-phone">8 (846) 990-80-63</a></p>
+							<p><a href="tel:88462522020" class="header-phone">8 (846) 252-20-20</a></p>
+							<p class="d-none d-lg-block"><a href="#popup-call" class="blue-link fancybox">Заказать звонок</a></p>
+						</div>
+					</div>
+				</div>
+				<!-- /.col-auto -->
+				<div class="col-sm-auto">
+					<div class="header-button"><a href="#popup-order" class="blue-btn fancybox">Онлайн заявка</a></div>
+				</div>
+				<!-- /.col-auto -->
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</header>
+	<!-- /.header -->
+	<div class="nav-wrap d-none d-md-block">
+		<nav class="nav">
+			<div class="container">
+				<ul class="nav-list">
+					<li class="nav-list__item"><a href="about.html">О компании</a></li>
+					<li class="nav-list__item nav-sub"><a href="catalog.html">Спецтехника</a>
+						<ul class="nav-dropdown">
+							<li class="nav-dropdown__item"><a href="section.html">Автокраны</a></li>
+							<li class="nav-dropdown__item"><a href="section.html">Автовышки</a></li>
+							<li class="nav-dropdown__item"><a href="section.html">Манипуляторы</a></li>
+							<li class="nav-dropdown__item"><a href="section.html">Фронтальные погрузчики</a></li>
+							<li class="nav-dropdown__item"><a href="section.html">Эксковаторы</a></li>
+							<li class="nav-dropdown__item"><a href="section.html">Самосвалы</a></li>
+							<li class="nav-dropdown__item"><a href="section.html">Борты и Полуприцепы</a></li>
+							<li class="nav-dropdown__item"><a href="section.html">Тралы</a></li>
+							<li class="nav-dropdown__item"><a href="section.html">Бетононасос</a></li>
+						</ul>
+					</li>
+					<li class="nav-list__item"><a href="sales.html">Акции</a></li>
+					<li class="nav-list__item"><a href="prices.html">Прайс</a></li>
+					<li class="nav-list__item nav-sub"><a href="services.html">Услуги</a>
+						<ul class="nav-dropdown">
+							<li class="nav-dropdown__item"><a href="services.html">Перевозка и сопровождение тяжелых и негабаритных грузов</a></li>
+							<li class="nav-dropdown__item"><a href="services.html">Разработка котлованов</a></li>
+							<li class="nav-dropdown__item"><a href="services.html">Снос и демонтаж зданий и сооружений</a></li>
+							<li class="nav-dropdown__item"><a href="services.html">Благоустройство территорий</a></li>
+							<li class="nav-dropdown__item"><a href="services.html">Вывоз строительного мусора</a></li>
+							<li class="nav-dropdown__item"><a href="services.html">Уборка и вывоз снега</a></li>
+							<li class="nav-dropdown__item"><a href="services.html">Опиловка веток и спил деревьев</a></li>
+						</ul>
+					</li>
+					<li class="nav-list__item"><a href="#">Фотогалерея</a></li>
+					<li class="nav-list__item"><a href="contacts.html">Контакты</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div class="header-padding"></div>
+	
+<div class="breadcrumbs">
+	<div class="container">
+		<ul class="breadcrumbs-list">
+			<li class="breadcrumbs-item">
+				<a href="/">Главная</a>
+				<span>></span>
+			</li>
+			<li class="breadcrumbs-item">О компании</li>
+		</ul>
+	</div>
+</div>
+<section class="about about-page">
+	<div class="container">
+		<h1 class="section-title blue-title">О компании</h1>
+		<!-- /.section-title blue-title -->
+		<div class="text-justify about-text">Наша компания ООО «ЛеСС» предоставляет аренду спецтехники в Самаре и Самарской области для частых лиц и предприятий по выгодным ценам. В нашем распоряжении находится собственный  парк спецтехники, который способен решать самые разнообразные задачи.</div>
+		<!-- /.about-subtitle -->
+		<div class="about-image"><img src="img/about/bg.jpg" alt="Компания ООО «ЛеСС»"></div>
+		<!-- /.about-image -->
+		<div class="row mobile-slider">
+			<div class="col-md-6 col-xl-4">
+				<div class="advantages-item">
+					<div class="advantages-item__icon"><img src="img/advantages/1.png" alt=""></div>
+					<div class="advantages-item__text">
+						<div class="advantages-item__title">ВЫСОКОКВАЛИФИЦИРОВАННЫЙ ПЕРСОНАЛ</div>
+						<div class="advantages-item__description">Вся наша команда - сертифицированные сотрудники, имеющие большой опыт работы с самыми сложными задачами</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="advantages-item">
+					<div class="advantages-item__icon"><img src="img/advantages/2.png" alt=""></div>
+					<div class="advantages-item__text">
+						<div class="advantages-item__title">БОЛЬШОЙ ВЫБОР СПЕЦТЕХНИКИ</div>
+						<div class="advantages-item__description">Компания ЛеСС имеет большой парк собственной строительной техники</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="advantages-item">
+					<div class="advantages-item__icon"><img src="img/advantages/3.png" alt=""></div>
+					<div class="advantages-item__text">
+						<div class="advantages-item__title">ТОЛЬКО ИСПРАВНАЯ СПЕЦТЕХНИКА</div>
+						<div class="advantages-item__description">У нас свой сервисный центр, вся техника проходит своевременное техническое обслуживание и необходимый ремонт</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="advantages-item">
+					<div class="advantages-item__icon"><img src="img/advantages/4.png" alt=""></div>
+					<div class="advantages-item__text">
+						<div class="advantages-item__title">24 ЧАСА НА СВЯЗИ БЕЗ ВЫХОДНЫХ</div>
+						<div class="advantages-item__description">Наши диспетчеры по заказу спецтехники готовы ответить на вопросы и оформить заказ в любое время!</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="advantages-item">
+					<div class="advantages-item__icon"><img src="img/advantages/5.png" alt=""></div>
+					<div class="advantages-item__text">
+						<div class="advantages-item__title">ДОСТАВКА НА МЕСТО ПРОВЕДЕНИЯ РАБОТ</div>
+						<div class="advantages-item__description">Вам не нужно думать, как доставить технику на место проведения работ, мы сделаем это в срок за Вас!</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="advantages-item">
+					<div class="advantages-item__icon"><img src="img/advantages/6.png" alt=""></div>
+					<div class="advantages-item__text">
+						<div class="advantages-item__title">АРЕНДА ТЕХНИКИ НА ЛЮБОЙ СРОК</div>
+						<div class="advantages-item__description">Наша компания предоставляет спецтехнику в аренду на любой срок и для выполнения любых задач.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.row -->
+		<div class="text-justify about-text">
+			<p>Вся техника, предоставляемая нашей компанией, находится в безупречном техническом состоянии и  это гарантия того, что запланированные работы не остановятся по вине вышедшего из строя автокрана, автовышки, манипулятора или другой специальной машины, взятой в аренду. Наши специалисты  следят за исправностью предоставляемой техники, так же могут подсказать, при необходимости, как выполнить те или иные работы наиболее рационально и качественно. </p>
+			<p>Аренда спецтехники в Самаре и Самарской области предполагает под собой доставку необходимой спецтехники непосредственно на строительный объект. Наша компания занимается доставкой спецтехники, а также предлагает свои услуги по перевозке крупногабаритных грузов с помощью тралов. С помощью нашей спецтехники  Вы можете проводить самые сложные работы, которые будут включать в себя демонтаж зданий, перевозку различных грузов и не переживать о выполнении всех работ в срок.</p>
+			<p>Аренда строительной техники в Самаре и Самарской области по выгодным ценам всегда доступна в нашей компании. <br> Заказать спецтехнику в компании ООО «ЛеСС» легко! Мы предоставляем технику в аренду на любой срок (минимум – один день), максимального ограничения - нет. Обратите внимание, что чем дольше срок аренды, тем ниже ее стоимость. Именно поэтому для компаний, заключающих с нами долговременные договоры, у нас особые, очень приятные цены и бонусы. Мы предлагаем выгодные цены на услуги спецтехники в Самаре и Самарской области, поскольку все машины находятся в собственности  вы не платите за услуги посредников. Мы с радостью поможем Вам в выборе спецтехники и проконсультируем по интересующим Вас вопросам.</p>
+		</div>
+		<!-- /.text-justify -->
+	</div>
+	<!-- /.container -->
+</section>
+<!-- /.about about-page -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-lg-3">
+					<div class="footer-item">
+						<div class="footer-item__title">Контакты</div>
+						<div class="footer-phones">
+							<div class="footer-phones__icon"><img src="img/footer/phone.png" alt=""></div>
+							<div class="footer-phones__links">
+								<p><a class="footer-phone" href="tel:88469908063">8 (846) 990-80-63</a></p>
+								<p><a class="footer-phone" href="88462522020">8 (846) 252-20-20</a></p>
+								<p><a href="#popup-call" class="gold-link fancybox">Заказать звонок</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.col-3 -->
+				<div class="col-sm-4 col-lg-3 col-xl-4">
+					<div class="footer-item">
+						<div class="footer-item__title">Меню сайта</div>
+						<ul class="footer-menu">
+							<li class="footer-menu__item"><a href="about.html">О компании</a></li>
+							<li class="footer-menu__item"><a href="catalog.html">Спецтехника</a></li>
+							<li class="footer-menu__item"><a href="prices.html">Прайс</a></li>
+							<li class="footer-menu__item"><a href="sales.html">Акции</a></li>
+							<li class="footer-menu__item"><a href="services.html">Услуги</a></li>
+							<li class="footer-menu__item"><a href="#">Фотогалерея</a></li>
+							<li class="footer-menu__item"><a href="contacts.html">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /.col-4 -->
+				<div class="col-sm-4 col-lg-6 col-xl-5">
+					<div class="footer-item">
+						<div class="footer-item__title">Спецтехника</div>
+						<ul class="footer-menu">
+							<li class="footer-menu__item"><a href="section.html">Автокраны</a></li>
+							<li class="footer-menu__item"><a href="section.html">Автовышки</a></li>
+							<li class="footer-menu__item"><a href="section.html">Манипуляторы</a></li>
+							<li class="footer-menu__item"><a href="section.html">Фронтальные погрузчики</a></li>
+							<li class="footer-menu__item"><a href="section.html">Экскаваторы</a></li>
+							<li class="footer-menu__item"><a href="section.html">Самосвалы</a></li>
+							<li class="footer-menu__item"><a href="section.html">Борты и полуприцепы</a></li>
+							<li class="footer-menu__item"><a href="section.html">Тралы</a></li>
+							<li class="footer-menu__item"><a href="section.html">Бетононасосы</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /.col-5 -->
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</footer>
+	<div class="bottom">
+		<div class="container">Аренда строительной спецтехники в Самаре компания "АвтоСпецТехника".<br>2017-2019. Все права защищены.</div>
+	</div>
+	<div class="popup" id="popup-call">
+		<div class="section-title blue-title">Заказать звонок</div>
+		<form action="" class="popup-form">
+			<div class="popup-form__item"><input class="input" type="text" placeholder="Ваше имя"></div>
+			<div class="popup-form__item"><input class="input" type="text" required="" placeholder="Номер телефона*"></div>
+			<div class="popup-form__item"><input class="input" type="text" placeholder="E-mail"></div>
+			<div class="popup-form__checkbox">
+				<input type="checkbox" checked name="checkbox" id="popup-call-checkbox" class="checkbox">
+				<label for="popup-call-checkbox">Я прочитал <a href="#popup-polit" class="politic">Политику конфиденциальности</a> и согласен на обработку персональных данных</label>
+			</div>
+			<div class="popup-form__submit"><button class="blue-btn">Заказать звонок</button></div>
+		</form>
+	</div>
+	<div class="popup" id="popup-order">
+		<div class="section-title blue-title">Онлайн заявка</div>
+		<form action="" class="popup-form">
+			<div class="popup-form__item"><input class="input" type="text" placeholder="Ваше имя" name="name"></div>
+			<div class="popup-form__item"><input class="input" type="text" required name="phone" placeholder="Номер телефона*"></div>
+			<div class="popup-form__item"><input class="input" type="text" placeholder="E-mail" name="mail"></div>
+			<div class="popup-form__item">
+				<select class="input" name="type">
+					<option value="">Выберите технику</option>
+					<option value="Автокраны">Автокраны</option>
+					<option value="Автовышки">Автовышки</option>
+					<option value="Манипуляторы">Манипуляторы</option>
+					<option value="Фронтальные погрузчики">Фронтальные погрузчики</option>
+					<option value="Экскаваторы">Экскаваторы</option>
+					<option value="Самосвалы">Самосвалы</option>
+					<option value="Борты/полуприцепы">Борты/полуприцепы</option>
+					<option value="Тралы">Тралы</option>
+					<option value="Бетононасос">Бетононасос</option>
+				</select>
+			</div>
+			<div class="popup-form__item"><input class="input" type="text" placeholder="Срок аренды" name="time"></div>
+			<div class="popup-form__item"><input class="input" type="text" placeholder="Адрес доставки" name="address"></div>
+			<div class="popup-form__item"><input class="input" type="text" placeholder="Дата и время доставки" name="date"></div>
+			<div class="popup-form__checkbox">
+				<input type="checkbox" checked name="checkbox" id="popup-call-checkbox" class="checkbox">
+				<label for="popup-call-checkbox">Я прочитал <a href="#popup-polit" class="politic">Политику конфиденциальности</a> и согласен на обработку персональных данных</label>
+			</div>
+			<div class="popup-form__submit"><button class="blue-btn">Оставить заявку</button></div>
+		</form>
+	</div>
+	<div class="popup" id="popup-polit">
+		<div class="section-title blue-title">Политика конфиденциальности</div>
+		<div class="text-justify"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro provident dolorum eos qui ipsam nobis ullam eum ut reprehenderit adipisci autem perspiciatis, deleniti ipsa expedita consequuntur non nemo aut possimus a omnis temporibus beatae ad reiciendis laborum. Aperiam saepe harum eum, voluptatum, itaque ipsam excepturi, quas sint quis iste vel quidem adipisci esse repellendus recusandae. Eos rerum harum et repudiandae ab assumenda numquam debitis explicabo voluptates impedit dolorum non reprehenderit fugit sit, quidem exercitationem culpa blanditiis laboriosam magni voluptatem quam laudantium iste esse facere praesentium. Numquam nulla iure, soluta, asperiores, laboriosam dolore modi porro rerum saepe ullam maiores sed unde!</p>
+		<p>Voluptatibus provident praesentium velit adipisci dignissimos, optio eaque modi numquam ullam, iure excepturi similique ab ea quod iusto ipsam maiores. Quod nostrum ullam dolorum id accusantium qui vel aut incidunt officiis ea maxime explicabo quae labore cumque facilis unde, iure deserunt natus, assumenda reiciendis perferendis! Molestias odio, veritatis voluptatum vitae optio ipsum in aperiam deleniti. Odio id suscipit perferendis ullam fugiat voluptatum excepturi obcaecati provident eligendi reprehenderit soluta, beatae aspernatur, incidunt asperiores quis laudantium rem aperiam voluptas est in! Est minima aspernatur sunt vitae, repudiandae corrupti quo voluptatibus culpa, nihil porro perspiciatis consequuntur. Unde placeat asperiores repellat deserunt, qui quae.</p>
+		<p>Sint culpa asperiores veniam consequatur necessitatibus? Hic nesciunt vitae, cum doloribus nisi, cupiditate ipsa sequi temporibus natus totam delectus, illo ullam ut earum. Dolorem voluptas mollitia numquam quod et aliquid molestias aperiam perferendis ipsa dignissimos, veniam cum id qui blanditiis earum in ratione eaque dolor quo vel. Ipsum, saepe, dolorem. Odio dolores nam repudiandae alias eaque, enim placeat harum, ratione impedit blanditiis quaerat! Sed quam, quasi vel quae illo distinctio explicabo architecto ut consequatur culpa reprehenderit sint placeat voluptatum provident numquam! Laudantium omnis, adipisci molestiae. Doloremque officiis maxime dignissimos rerum, ut eaque quia ad ex fugit dicta? Expedita repellendus, nisi.</p></div>
+	</div>
+	<script src="js/libs.min.js"></script>
+  <script src="js/all.min.js"></script>
+</body>
+</html>
