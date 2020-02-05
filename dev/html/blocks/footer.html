@@ -1,4 +1,109 @@
-	<footer></footer>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-lg-3">
+					<div class="footer-item">
+						<div class="footer-item__title">Контакты</div>
+						<div class="footer-phones">
+							<div class="footer-phones__icon"><img src="img/footer/phone.png" alt=""></div>
+							<div class="footer-phones__links">
+								<p><a class="footer-phone" href="tel:88469908063">8 (846) 990-80-63</a></p>
+								<p><a class="footer-phone" href="88462522020">8 (846) 252-20-20</a></p>
+								<p><a href="#popup-call" class="gold-link fancybox">Заказать звонок</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.col-3 -->
+				<div class="col-sm-4 col-lg-3 col-xl-4">
+					<div class="footer-item">
+						<div class="footer-item__title">Меню сайта</div>
+						<ul class="footer-menu">
+							<li class="footer-menu__item"><a href="about.html">О компании</a></li>
+							<li class="footer-menu__item"><a href="catalog.html">Спецтехника</a></li>
+							<li class="footer-menu__item"><a href="prices.html">Прайс</a></li>
+							<li class="footer-menu__item"><a href="sales.html">Акции</a></li>
+							<li class="footer-menu__item"><a href="services.html">Услуги</a></li>
+							<li class="footer-menu__item"><a href="#">Фотогалерея</a></li>
+							<li class="footer-menu__item"><a href="contacts.html">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /.col-4 -->
+				<div class="col-sm-4 col-lg-6 col-xl-5">
+					<div class="footer-item">
+						<div class="footer-item__title">Спецтехника</div>
+						<ul class="footer-menu">
+							<li class="footer-menu__item"><a href="section.html">Автокраны</a></li>
+							<li class="footer-menu__item"><a href="section.html">Автовышки</a></li>
+							<li class="footer-menu__item"><a href="section.html">Манипуляторы</a></li>
+							<li class="footer-menu__item"><a href="section.html">Фронтальные погрузчики</a></li>
+							<li class="footer-menu__item"><a href="section.html">Экскаваторы</a></li>
+							<li class="footer-menu__item"><a href="section.html">Самосвалы</a></li>
+							<li class="footer-menu__item"><a href="section.html">Борты и полуприцепы</a></li>
+							<li class="footer-menu__item"><a href="section.html">Тралы</a></li>
+							<li class="footer-menu__item"><a href="section.html">Бетононасосы</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /.col-5 -->
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</footer>
+	<div class="bottom">
+		<div class="container">Аренда строительной спецтехники в Самаре компания "АвтоСпецТехника".<br>2017-2019. Все права защищены.</div>
+	</div>
+	<div class="popup" id="popup-call">
+		<div class="section-title blue-title">Заказать звонок</div>
+		<form action="" class="popup-form">
+			<div class="popup-form__item"><input class="input" type="text" placeholder="Ваше имя"></div>
+			<div class="popup-form__item"><input class="input" type="text" required="" placeholder="Номер телефона*"></div>
+			<div class="popup-form__item"><input class="input" type="text" placeholder="E-mail"></div>
+			<div class="popup-form__checkbox">
+				<input type="checkbox" checked name="checkbox" id="popup-call-checkbox" class="checkbox">
+				<label for="popup-call-checkbox">Я прочитал <a href="#popup-polit" class="politic">Политику конфиденциальности</a> и согласен на обработку персональных данных</label>
+			</div>
+			<div class="popup-form__submit"><button class="blue-btn">Заказать звонок</button></div>
+		</form>
+	</div>
+	<div class="popup" id="popup-order">
+		<div class="section-title blue-title">Онлайн заявка</div>
+		<form action="" class="popup-form">
+			<div class="popup-form__item"><input class="input" type="text" placeholder="Ваше имя" name="name"></div>
+			<div class="popup-form__item"><input class="input" type="text" required name="phone" placeholder="Номер телефона*"></div>
+			<div class="popup-form__item"><input class="input" type="text" placeholder="E-mail" name="mail"></div>
+			<div class="popup-form__item">
+				<select class="input" name="type">
+					<option value="">Выберите технику</option>
+					<option value="Автокраны">Автокраны</option>
+					<option value="Автовышки">Автовышки</option>
+					<option value="Манипуляторы">Манипуляторы</option>
+					<option value="Фронтальные погрузчики">Фронтальные погрузчики</option>
+					<option value="Экскаваторы">Экскаваторы</option>
+					<option value="Самосвалы">Самосвалы</option>
+					<option value="Борты/полуприцепы">Борты/полуприцепы</option>
+					<option value="Тралы">Тралы</option>
+					<option value="Бетононасос">Бетононасос</option>
+				</select>
+			</div>
+			<div class="popup-form__item"><input class="input" type="text" placeholder="Срок аренды" name="time"></div>
+			<div class="popup-form__item"><input class="input" type="text" placeholder="Адрес доставки" name="address"></div>
+			<div class="popup-form__item"><input class="input" type="text" placeholder="Дата и время доставки" name="date"></div>
+			<div class="popup-form__checkbox">
+				<input type="checkbox" checked name="checkbox" id="popup-call-checkbox" class="checkbox">
+				<label for="popup-call-checkbox">Я прочитал <a href="#popup-polit" class="politic">Политику конфиденциальности</a> и согласен на обработку персональных данных</label>
+			</div>
+			<div class="popup-form__submit"><button class="blue-btn">Оставить заявку</button></div>
+		</form>
+	</div>
+	<div class="popup" id="popup-polit">
+		<div class="section-title blue-title">Политика конфиденциальности</div>
+		<div class="text-justify"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro provident dolorum eos qui ipsam nobis ullam eum ut reprehenderit adipisci autem perspiciatis, deleniti ipsa expedita consequuntur non nemo aut possimus a omnis temporibus beatae ad reiciendis laborum. Aperiam saepe harum eum, voluptatum, itaque ipsam excepturi, quas sint quis iste vel quidem adipisci esse repellendus recusandae. Eos rerum harum et repudiandae ab assumenda numquam debitis explicabo voluptates impedit dolorum non reprehenderit fugit sit, quidem exercitationem culpa blanditiis laboriosam magni voluptatem quam laudantium iste esse facere praesentium. Numquam nulla iure, soluta, asperiores, laboriosam dolore modi porro rerum saepe ullam maiores sed unde!</p>
+		<p>Voluptatibus provident praesentium velit adipisci dignissimos, optio eaque modi numquam ullam, iure excepturi similique ab ea quod iusto ipsam maiores. Quod nostrum ullam dolorum id accusantium qui vel aut incidunt officiis ea maxime explicabo quae labore cumque facilis unde, iure deserunt natus, assumenda reiciendis perferendis! Molestias odio, veritatis voluptatum vitae optio ipsum in aperiam deleniti. Odio id suscipit perferendis ullam fugiat voluptatum excepturi obcaecati provident eligendi reprehenderit soluta, beatae aspernatur, incidunt asperiores quis laudantium rem aperiam voluptas est in! Est minima aspernatur sunt vitae, repudiandae corrupti quo voluptatibus culpa, nihil porro perspiciatis consequuntur. Unde placeat asperiores repellat deserunt, qui quae.</p>
+		<p>Sint culpa asperiores veniam consequatur necessitatibus? Hic nesciunt vitae, cum doloribus nisi, cupiditate ipsa sequi temporibus natus totam delectus, illo ullam ut earum. Dolorem voluptas mollitia numquam quod et aliquid molestias aperiam perferendis ipsa dignissimos, veniam cum id qui blanditiis earum in ratione eaque dolor quo vel. Ipsum, saepe, dolorem. Odio dolores nam repudiandae alias eaque, enim placeat harum, ratione impedit blanditiis quaerat! Sed quam, quasi vel quae illo distinctio explicabo architecto ut consequatur culpa reprehenderit sint placeat voluptatum provident numquam! Laudantium omnis, adipisci molestiae. Doloremque officiis maxime dignissimos rerum, ut eaque quia ad ex fugit dicta? Expedita repellendus, nisi.</p></div>
+	</div>
 	<script src="js/libs.min.js"></script>
   <script src="js/all.min.js"></script>
 </body>

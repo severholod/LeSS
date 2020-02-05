@@ -1,0 +1,55 @@
+.prices
+	padding-top: 42px
+	padding-bottom: 49px
+	&-table
+		border-radius: 0 0 4px 4px
+		border: 1px solid #eeeeee
+		border-top: none
+		background-color: #ffffff
+		color: #000
+		font-family: "PT Sans"
+		font-size: 16px
+		font-weight: 400
+		line-height: 12px
+	.section-title
+		margin-bottom: 53px
+.table
+	&-head
+		background-color: #f7a403
+		border-radius: 4px 4px 0px 0px
+		border: 1px solid #f7a403
+		padding: 17px 26px 12px
+		color: #fff
+		font-weight: 700
+		text-transform: uppercase
+		.table-row__title
+			flex: 0 0 40%
+		.table-row__price
+			flex: 0 0 45%
+	&-row
+		padding: 12px 26px
+		&-flex
+			display: flex
+		&-solid
+			font-weight: 700
+			text-transform: uppercase
+			color: #486caa
+		&__number
+			flex: 0 0 15%
+			padding-right: 5px
+		&__title
+			flex: 0 0 60%
+			padding-right: 5px
+			padding-left: 5px
+			a
+				color: #000
+				&:hover
+					color: #1b4e9b
+					text-decoration: underline
+					font-weight: 700
+		&__price
+			flex: 0 0 25%
+			text-align: right
+			padding-left: 5px
+		&:nth-child(odd)
+			background-color: #f7f7f7

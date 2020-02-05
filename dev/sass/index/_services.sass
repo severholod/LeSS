@@ -1,0 +1,34 @@
+.services
+	padding-top: 59px
+	padding-bottom: 42px
+	background-color: #434343
+	a:hover
+		text-decoration: none
+	.section-title
+		margin-bottom: 66px
+	&-item
+		margin-bottom: 29px
+		&__img img 
+			width: 100%
+			filter: grayscale(100%)
+		&__title
+			color: #fff
+			font-family: "PT Sans"
+			font-size: 17px
+			line-height: 17px
+			font-weight: 700
+			text-transform: uppercase
+			display: flex
+			align-items: center
+			min-height: 74px
+			padding: 17px 20px 22px
+			background-color: #222127
+		&:hover
+			.services-item__img img
+				filter: grayscale(0%)
+				transition: all .5s ease
+			.services-item__title
+				color: #222127
+				background-color: #fbba03
+				transition: all .5s ease
+	

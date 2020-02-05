@@ -1,0 +1,52 @@
+.sales
+	padding-top: 58px
+	padding-bottom: 54px
+	background: #fbba03
+	position: relative
+	z-index: 1
+	&::after
+		content: ''
+		display: block
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		left: 0
+		background: linear-gradient(-230deg, #f7a403 0%, rgba(255, 204, 1, 0) 100%)
+		z-index: -1
+	.section-title
+		margin-bottom: 46px
+		&::after
+			width: 90px
+			left: calc(50% - 45px)
+			background: #fff
+	&-item
+		background: #fff
+		margin-bottom: 34px
+		color: #000000
+		font-family: "PT Sans"
+		&__text
+			padding: 20px 24px 17px
+		&__img img
+			width: 100%
+		&__title
+			font-size: 20px
+			font-weight: 700
+			text-transform: uppercase
+			line-height: 14px
+			margin-bottom: 15px
+		&__price
+			font-size: 20px
+			font-weight: 700
+			line-height: 19px
+			margin-bottom: 12px
+		&__description
+			font-size: 16px
+			font-weight: 400
+			line-height: 14px
+			color: #434343
+	&-button
+		text-align: center
+		.blue-btn
+			padding-left: 25px
+			padding-right: 25px
